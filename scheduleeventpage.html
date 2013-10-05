@@ -55,16 +55,58 @@
               </div>
               </div>
                 <div class="col-xs-6">
-                    <div class="notifications-area">
-                    
-                    </div>
-                </div>
-                <div class="col-xs-6">
-                    <div class="events-area">
-                        
+                    <form action="#">
+
+                      <!-- NAME -->
+                      <div>
+                        <label class="schedule-label">
+                          Name:
+                        </label>                      
+                        <input type="text" name="name">
+                      </div>
+                      <!-- !NAME -->
+
+                      <!-- DATE -->
+                      <div>
+                        <label class="schedule-label">
+                          Date:                        
+                        </label> 
+                        <input type="text" name="date">
+                      </div>
+                      <!-- !DATE -->
+
+                      <!-- TIME -->
+                      <div>
+                        <label class="schedule-label">
+                          Time:                      
+                        </label> 
+                        <input type="text" name="time">
+                      </div>
+                      <!-- !TIME -->
+
                       
-                    </div>
+
+                      <!-- TYPE -->
+                      <div class="type-input">
+                        <label class="schedule-label">
+                          Type:                      
+                        </label> 
+                        <span class="type-input-span">
+                          Performance
+                          <input type="checkbox" name="Type" value="Performance"> 
+                        </span>
+                        <span class="type-input-span">
+                          Class   
+                          <input type="checkbox" name="Type" value="Class">
+                        </span>
+                      </div>
+                      <!-- !TYPE -->
+                      <div class="type-input-submit">
+                        <input type="submit" value="Submit">
+                      </div>
+                    </form>                    
                 </div>
+                
                 <div class="clearfix"></div> 
             </div>
         </div>

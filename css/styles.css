@@ -60,3 +60,27 @@ body {
 .clearfix {
 	clear: both;
 }
+.type-input{
+	display: inline;
+}
+
+.schedule-label {
+    width: 80px;
+    clear: left;
+    text-align: right;
+    padding-right: 20px;
+}
+
+input, .schedule-label {
+    //float: left;
+}
+.type-input-span {
+	padding-right: 10px;
+}
+
+.type-input-submit {
+	width: 80px;
+    text-align: right;
+    padding-right: 20px;
+
+}
