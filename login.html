@@ -13,27 +13,18 @@
         <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex5-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex5-collapse"> <span class="sr-only">Toggle navigation</span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+ <span class="icon-bar"></span>
+
                 </button> <a class="navbar-brand" href="#">The Village Idiots</a>
 
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex5-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="managerdashboard.html">Home</a>
-
-                    </li>
-                    <li><a href="members.html">Members</a>
-
-                    </li>
-                    <li><a href="events.html">Events</a>
-
-                    </li>
-                    <li><a href="login.html">Logout</a>
+                    <li class="active"><a href="#">Login</a>
 
                     </li>
                 </ul>
@@ -42,9 +33,29 @@
         </nav>
         <div class="container content-area">
             <div class="row">
+            <div class="loginform-wrapper">
+                <form role="form" action="managerdashboard.html">
+                  <div class="form-group">
+                    <label for="exampleInputUsername1">Username</label>
+                    <input type="email" class="form-control" id="exampleInputUsername1" placeholder="Enter username">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                  </div>
+                  
+                  <div class="checkbox">
+                    <label>
+                      <input type="checkbox"> Remember Me
+                    </label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Login</button>
+                  <a class="forgot-password" href="#">Forgot Password</a>
+                </form>
             </div>
             
         </div>
+    </div>
 </body>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
